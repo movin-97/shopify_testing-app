@@ -1,0 +1,4 @@
+.Polaris-Button:hover{
+    background-color: var(--p-backdrop) !important;
+    color: var(--p-action-critical-disabled) !important;text-decoration: none !important;
+}

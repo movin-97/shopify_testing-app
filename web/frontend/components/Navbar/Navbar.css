@@ -1,0 +1,21 @@
+.Polaris-Navigation__PrimaryNavigation{
+    background-color: #2C2C2C !important;
+    align-content: center !important;
+}
+.Polaris-Navigation__Section{
+    margin-top: 20px !important;
+}
+.Polaris-Navigation__Text{
+    color: whitesmoke !important;
+}
+.Polaris-Navigation__ListItem:not(:first-child) .Polaris-Navigation__Item{
+    border: none !important;
+    margin-top: 20px;
+    align-items: center;
+}
+.Polaris-Navigation__Icon svg{
+    fill: var(--p-surface-selected) !important;
+}
+.Polaris-Navigation__Item:hover{
+    background: var(--p-action-secondary-depressed) !important;
+}

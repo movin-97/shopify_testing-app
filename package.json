@@ -1,0 +1,19 @@
+{
+  "name": "divine-thunder-app-9868",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev --tunnel-url=https://applicants-convertible-reveals-practitioners.trycloudflare.com:80",
+    "info": "shopify app info",
+    "scaffold": "shopify app scaffold",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/app": "3.0.27",
+    "@shopify/cli": "3.0.27"
+  },
+  "author": "MOVIN DURAISAMY"
+}
